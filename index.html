@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Mobile</title>
@@ -11,22 +14,50 @@
             box-sizing: border-box;
         }
         body {
-            font-family: Arial, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             background-color: #fff0eb;
             text-align: center;
         }
-        header {
+        header h2{
             background-color: #fff0eb;
             color: #003848;
-            padding: 20px;
             font-size: 20px;
+            padding: auto;
+            padding-right: 100px;
+            padding-top: 10px
         }
+
+        header h1 {
+            font-family: ;
+            color: #003848;
+            font-size: 40px;
+            padding-bottom: 1px;
+
+        }
+
+        header h3 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #003848;
+            font-size: 15px;
+            padding: auto;
+            padding-top: 0px;
+            padding-left: 180px;
+
+        }
+
+        .title {
+            padding: 30%;
+            color: #003848;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
         .container {
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
             padding: 2px;
+            padding-top: 18px;
             gap: 5px;
         }
         .image-box {
@@ -57,22 +88,30 @@
             margin-top: 20px;
         }
 
-        .title {
-            padding: 30%;
+
+
+        section {
+            padding: 20px;
+            font-size: 10px;
             color: #003848;
         }
 
-        section {
-            padding: 30px;
-            font-size: 10px;
-            color: #003848;
+        .ajudar {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+            padding-top: 15px;
         }
     </style>
 </head>
 <body>
-    <header>Página Mobile</header>
+    <header>
+        <h2>Revolução</h2>
+        <h1>Vital Mulher</h1>
+        <h3>Melhor saúde, melhor perço</h3>
+    
+    </header>
     <sectio class="title">
         <div> VENHA REVOLUCIONAR!</div>
+        <div class="ajudar"> No que posso ajudar? </div>
     </sectio>
     <div class="container">
         <div class="image-box">
